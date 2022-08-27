@@ -229,7 +229,6 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
   font-size: var(--small-font-size);
   color: var(--title-color);
   font-weight: var(--font-medium);
@@ -315,10 +314,18 @@ img {
 }
 
 .home__subtitle{
-  font-size: var(--h3-font-size);
-  color: var(--text-color);
-  font-weight: var(--font-medium);
+  color: var(--first-color);
   margin-bottom: var(--mb-0-75);
+}
+
+.home__subtitle b{
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.ah-headline.clip .ah-words-wrapper::after {
+  background-color: var(--first-color-lighter);
+  top: 30%;
 }
 
 .home__description{

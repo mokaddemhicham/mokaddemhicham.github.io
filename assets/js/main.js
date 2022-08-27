@@ -186,3 +186,18 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+
+/*==================== Animated headline js ====================*/ 
+
+$('.animate-scale').animatedHeadline({
+    animationType: 'clip'
+});
+
+//************** counter js
+
+        // countUp
+$('.count').countUp({
+    delay: 10,
+    time: 1500
+});
