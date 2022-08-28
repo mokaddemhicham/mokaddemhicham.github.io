@@ -229,6 +229,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   font-size: var(--small-font-size);
   color: var(--title-color);
   font-weight: var(--font-medium);
@@ -369,6 +370,9 @@ img {
   padding: 1rem;
   border-radius: .5rem;
   font-weight: var(--font-medium);
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
 .button:hover{
@@ -1338,4 +1342,10 @@ img {
   .contact__inputs{
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+#feedback{
+  color: red;
+  font-size: 15px;
+  display: none;
 }
